@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-file_path = r"D:\DA Projects\IPL\matches.csv"
+file_path = r"matches.csv"
 df = pd.read_csv(file_path)
 
 st.markdown(
@@ -13,7 +13,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.markdown('---')
-st.sidebar.image(r"D:\DA Projects\IPL\PngItem_1270088.png")
+st.sidebar.image(r"PngItem_1270088.png")
 
 # Sidebar for navigation
 option = st.sidebar.selectbox(
